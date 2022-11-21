@@ -1,4 +1,7 @@
 # Lab 8 - Starter
+### Lab Partners
+Worked alone. Gunwoo Kim
+
 ### Question Answers
 1) I would put my automated tests **(1) within GitHub Actions** because we want the tests to run in our CI pipeline. When we push any code into our repo, it should run basic tests that ensures that all the parts of the code is exhibiting the desired behavior.
 
@@ -8,3 +11,6 @@
 
 4) **no**. It is specified that "max message length" is a feature. So it requires testing it in a higher lever. i.e. the tester should attempt to put in text longer than 80 characters and see if the entry box only accepts the first 80 characters that has been entered. 
 
+### Test Results
+![unit and sum test](/unitAndSumTest.png)
+![lab8 test and results](/lab8TestAndResult.png)
